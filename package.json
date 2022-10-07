@@ -1,0 +1,35 @@
+{
+   "name": "agenda.api",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "ts-node": "3.3.0",
+      "@types/node": "^8.0.29",
+      "typescript": "3.3.3333"
+   },
+   "dependencies": {
+      "aspnetcore-identity-password-hasher": "^1.0.1",
+      "body-parser": "^1.19.0",
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "g": "^2.0.1",
+      "jsonwebtoken": "^8.5.1",
+      "md5": "^2.2.1",
+      "moment": "^2.29.1",
+      "mssql": "^6.3.1",
+      "mysql": "^2.14.1",
+      "node-geocoder": "^3.27.0",
+      "nodemailer": "^6.4.11",
+      "nodemon": "^2.0.7",
+      "pbkdf2": "^3.1.1",
+      "reflect-metadata": "^0.1.10",
+      "to": "^0.2.9",
+      "typeorm": "0.2.25",
+      "typeorm-model-generator": "^0.4.4",
+      "update": "^0.7.4",
+      "xml-js": "^1.6.11"
+   }, 
+   "scripts": {
+      "start": "node index.js"
+    }
+}

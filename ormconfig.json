@@ -1,0 +1,25 @@
+{
+   "type": "mssql",
+   "host": "mssql.medoffice.com.br",
+   "port": 1433,
+   "username": "medofficesql",
+   "password": "F!b93fj0",
+   "database": "medoffice",
+   "options": {
+      "encrypt": true,
+      "enableArithAbort": true
+   },
+   "synchronize": false,
+   "logging": false,
+   "entities": [
+      "entity/**/*.js"
+   ],
+   "subscribers": [
+      "subscriber/**/*.js"
+   ],
+   "cli": {
+      "entitiesDir": "entity",
+      "migrationsDir": "migration",
+      "subscribersDir": "subscriber"
+   }
+}
