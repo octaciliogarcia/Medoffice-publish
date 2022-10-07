@@ -48,8 +48,8 @@ var xml2js = require('xml2js');
 var https = require('https');
 var http = require('http');
 var fs = require('fs');
-var privateKey = fs.readFileSync('selfsigned.key', 'utf8');
-var certificate = fs.readFileSync('selfsigned.crt', 'utf8');
+var privateKey = fs.readFileSync('private.key', 'utf8');
+var certificate = fs.readFileSync('private.crt', 'utf8');
 var credentials = { key: privateKey, cert: certificate };
 // create express app
 var app = express();
