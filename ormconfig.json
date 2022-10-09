@@ -2,9 +2,9 @@
    "type": "mssql",
    "host": "mssql.medoffice.com.br",
    "port": 1433,
-   "username": "medofficesql",
-   "password": "F!b93fj0",
-   "database": "medoffice",
+   "username": "teste-medoffice",
+   "password": "@Cq583qa2$",
+   "database": "teste_medoffice",
    "options": {
       "encrypt": true,
       "enableArithAbort": true
@@ -12,14 +12,14 @@
    "synchronize": false,
    "logging": false,
    "entities": [
-      "entity/**/*.js"
+      "src/entity/**/*.ts"
    ],
    "subscribers": [
-      "subscriber/**/*.js"
+      "src/subscriber/**/*.ts"
    ],
    "cli": {
-      "entitiesDir": "entity",
-      "migrationsDir": "migration",
-      "subscribersDir": "subscriber"
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
    }
 }
