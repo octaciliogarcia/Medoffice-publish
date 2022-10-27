@@ -168,7 +168,17 @@ var ProfissionaisController = /** @class */ (function (_super) {
                             })];
                     case 2:
                         _a.sent();
-                        return [2 /*return*/, token.data];
+                        if (token) {
+                            return [2 /*return*/, token.data];
+                        }
+                        else {
+                            return [2 /*return*/, {
+                                    status: 400,
+                                    success: true,
+                                    message: "erro ao cadastrar profissional"
+                                }];
+                        }
+                        return [2 /*return*/];
                 }
             });
         });
